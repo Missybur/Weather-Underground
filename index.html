@@ -3,12 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Weather Underground</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <h1>Weather</h1>
+    <div id="weatherImageDiv"><img id="weatherImage" src="myWeather.png" alt=""></div>
+    <label for="city/state/zip">City/State or Zipcode</label>
+    <input class=".col-md-4" id="zipcode" type="text" placeholder="city/state or zipcode">
+  </div>
 
-  <script src="main.js"></script>
+    <table>
+      <thead>
+        <tr>
+          <th scope:"col">Weather Info</th>
+          <th scope:"col">Weather Results</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <th>Feels Like:</th>
+            <td id="currentConditions">TBD</td>
+          </tr>
+          <tr>
+            <th>Condition:</th>
+            <td id="condition">TBD</td>
+          </tr>
+          <tr>
+            <th>Relative Humidity:</th>
+            <td id="humidity">TBD</td>
+          </tr>
+          <tr>
+            <th>Wind Conditions:</th>
+            <td id="windString">TBD</td>
+          </tr>
+          <tr>
+            <th>Forecast:</th>
+            <td id="forecast">TBD</td>
+          </tr>
+        </thead>
+      </tbody>
+    </table>
+
+    <button class="weatherIcon" id="getWeather">Click here!</button>
+
+
+
+  <div class="container">
+    <!-- <button id="getWeather">Get Weather!</button> -->
+ <!--    <button id="getDailyForecast">Get Daily Forecast!</button>
+    <button id="getDailyForecast">Get Daily Forecast!</button>
+    <button id="getDailyForecast">Get Daily Forecast!</button> -->
+
+    <div id="getDailyForecast"></div>
+
+  </div>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

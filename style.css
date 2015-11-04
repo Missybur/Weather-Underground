@@ -1,0 +1,53 @@
+body {
+  background-color: #FFDEB9;
+  color: #997F32;
+  text-align: center;
+  font-family: 'Alice', serif;
+}
+
+h1 {
+  color: #997F32;
+}
+
+button {
+  float: left;
+  background-color: #80CCB8;
+  /*background-color: #79FCFF;*/
+  color: #997F32;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #997F32;
+  margin-left: 30px;
+  float: center;
+}
+
+#weatherImageDiv {
+  padding-left: 800px;
+}
+
+input, label{
+  float: left;
+  margin-right: 60px;
+}
+
+/*div {
+  width: 150px;
+  height: 150px;
+}*/
+
+tr, td, thead {
+  border: 2px solid #997F32;
+  text-align: left;
+  /*width: 200px;*/
+  /*height: 200px;*/
+
+
+}
+
+.container-info {
+  border: 2px solid #997F32;
+  /*float: right;*/
+}
+
+
