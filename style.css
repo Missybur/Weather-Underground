@@ -6,48 +6,43 @@ body {
 }
 
 h1 {
-  color: #997F32;
+  color: #80CCB8;
+  /*left: 10px;*/
+  margin-bottom: 50px;
 }
 
 button {
-  float: left;
+  float: right;
   background-color: #80CCB8;
-  /*background-color: #79FCFF;*/
   color: #997F32;
   width: 75px;
   height: 75px;
   border-radius: 50%;
   border: 2px solid #997F32;
-  margin-left: 30px;
+  /*margin-top: 150px;*/
+  margin-right: 250px;
   float: center;
+  margin-bottom: 200px;
 }
 
-#weatherImageDiv {
-  padding-left: 800px;
+#missy {
+  float: left;
 }
 
 input, label{
   float: left;
-  margin-right: 60px;
+  margin-right: 40px;
+  padding-left: 20px;
 }
-
-/*div {
-  width: 150px;
-  height: 150px;
-}*/
 
 tr, td, thead {
   border: 2px solid #997F32;
   text-align: left;
-  /*width: 200px;*/
-  /*height: 200px;*/
-
 
 }
 
 .container-info {
   border: 2px solid #997F32;
-  /*float: right;*/
 }
 
 
