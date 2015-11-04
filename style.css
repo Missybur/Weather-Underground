@@ -5,6 +5,10 @@ body {
   font-family: 'Alice', serif;
 }
 
+/*#weatherImage{
+  float: left;
+}*/
+
 h1 {
   color: #80CCB8;
   /*left: 10px;*/
@@ -27,6 +31,10 @@ button {
 
 #missy {
   float: left;
+}
+
+#weatherImage {
+  float: right;
 }
 
 input, label{
